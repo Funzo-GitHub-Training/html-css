@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #000000;
+            color: #FFFFFF;
+            background: url('backgrd.png') no-repeat;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 200px;
+        }
+
+        .header > .logo {
+            background: url('Landing.png') no-repeat;
+            width: 114px;
+            height: 35px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+        }
+
+        nav > div {
+            margin-right: 50px;
+        }
+
+        .search {
+            width: 20px;
+            height: 20px;
+            background: url('search.png') no-repeat;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .big-dot {
+            background: url('01.png') no-repeat;
+            width: 10px;
+            height: 10px;
+        }
+
+        .small-dot {
+            background: url('02.png') no-repeat;
+            width: 10px;
+            height: 10px;
+        }
+
+        footer {
+            display: flex;
+            margin-top: 300px;
+        
+        }
+
+        footer > .share-icon {
+            width: 25px;
+            height: 25px;
+            background: url('shape.png') no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo"></div>
+        <nav class="nav">
+            <div>Products</div>
+            <div>About</div>
+            <div>Blog</div>
+            <div>Contact</div>
+        </nav>
+        <div class="search"></div>
+    </header>
+    <section class="main">
+        <div class="left">
+            <div class="big-dot"></div>
+            <div class="small-dot"></div>
+            <div class="small-dot"></div>
+            <div class="small-dot"></div>
+        </div>
+        <div class="right">
+            <div class="top">
+                <p class="prime">Universal Music Group and Brands</p>
+                <p class="second">the #1 Music and Media Agency</p>
+            </div>
+            <div class="bottom"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="share-icon"></div>
+    </footer>
+</body>
+</html>
