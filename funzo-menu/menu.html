@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+
+        .yellow {
+            width: 125px;
+            height: 6px;
+            background-color: #FFC80A;
+            display: inline-block;
+            position: relative;
+            top: 43px;
+            left: 643px;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            border-bottom: 6px solid #898F9B;
+        }
+
+        hr {
+            height: 4px;
+            background-color: #898F9B;
+        }
+
+        .pos-rel {
+            width: 400px;
+            height: 400px;
+            background-color: green;
+            position: relative;
+        }
+
+        .pos-abs {
+            width: 200px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            bottom: 4px;
+            right: 4px;
+            
+        }
+
+        .random {
+            width: 200px;
+            height: 100px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <span class="yellow"></span>
+
+
+    <div class="menu">
+        <div>Contents</div>
+        <div>Layouts</div>
+        <div>Elements</div>
+        <div>Objects</div>
+        <div>Grid</div>
+    </div>
+    <!-- <hr> -->
+
+    <div class="pos-rel">
+        RELATIVE
+        <div class="pos-abs">
+            ABSOLUTE
+        </div>
+    </div>
+    <div class="random">
+        AFTER POS BOXES
+    </div>
+</body>
+</html>
