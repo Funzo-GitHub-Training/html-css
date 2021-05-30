@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        .wrapper {
+      position: relative;
+    }
+    
+    .dashed-box {
+      position: relative;
+      z-index: 2;
+      border: dashed;
+      height: 8em;
+      margin-bottom: 1em;
+      margin-top: 2em;
+      background-color: grey;
+    }
+    .gold-box {
+      position: absolute;
+      z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+      background: gold;
+      width: 80%;
+      left: 60px;
+      top: 3em;
+    }
+    .green-box {
+      position: absolute;
+      z-index: 1; /* put .green-box above .dashed-box */
+      background: lightgreen;
+      width: 20%;
+      left: 65%;
+      top: -25px;
+      height: 7em;
+      opacity: 0.9;
+    }
+    
+    #dashBox {
+    
+    }
+    
+    a[target="_blank"] {
+        font-size: 40px;
+    }
+    
+    a {
+    
+    }
+    
+    p {
+        
+    }
+    
+    input[type="text"] {
+        border: 1px solid black;
+        border-radius: 3px;
+        height: 25px;
+    }
+    
+    input[type="date"] {
+        border: 2px solid black;
+        border-radius: 0px;
+        height: 30px;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    input[type="number"] {
+        display: block;
+        margin-top: 20px;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="dashed-box" style="" id="dashBox">Dashed box</div>
+        <div class="gold-box">Gold box</div>
+        <div class="green-box">Green box</div>
+        <a href="https://www.efunzo.com" target="_blank">eFunzo</a>
+      </div>
+
+      <input type="text" value="Input">
+      <input type="text" value="Another Input">
+      <input type="text" value="">
+      <input type="text" value="">
+      <input type="text" value="">
+
+      <input type="number" value="">
+      <input type="date" value="">
+      
+      <div>asddfdfd dfdfasd <!-- Balise non fermee mais le navigateur est complaisant  -->
+</body>
+</html>
