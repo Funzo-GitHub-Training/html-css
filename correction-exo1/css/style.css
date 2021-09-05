@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Barlow+Condensed:ital,wght@1,200&family=Maitree:wght@300&family=Merriweather+Sans:wght@700&display=swap');
+ 
+
+body {
+    background: #000000;
+    color: #FFFFFF;
+    background: url("../images/Img.png") no-repeat;
+    padding: 15px;
+    width: 900px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.header > .logo {
+    background: url("../images/Landing.png") no-repeat;
+    width: 114px;
+    height: 35px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+nav > div {
+    margin-right: 50px;
+}
+.search {
+    width: 20px;
+    height: 20px;
+    background: url("../images/search.png") no-repeat;
+}
+.main {
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.prime{
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    width: 25%;
+    margin-left: 20em;
+}
+.second{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 10px;
+    margin-right: 17em;
+    color: rgb(158, 145, 145);
+    transform: translateY(-3em);
+}
+.bottom{
+    margin-right: 17em;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #ffc80a;
+    letter-spacing: 2px;
+}
+.big-dot {
+    background: url("../images/01.png") no-repeat;
+    width: 10px;
+    height: 10px;
+    padding: 8px 0;
+}
+.small-dot {
+    background: url("../images/02.png") no-repeat;
+    width: 10px;
+    height: 10px;
+    padding: 8px 0;
+}
+footer {
+    display: flex;
+    /* margin-top: 130px;       */
+}
+footer > .share-icon {
+    width: 25px;
+    height: 25px;
+    background: url("../images/shape.png") no-repeat;
+}
+/* responsive */
+
+@media (max-width: 1024px){
+    .header {
+        display: inline;
+    }
+    nav {
+        display: inline;
+    }
+    nav > div {
+        line-height: 37px;
+    }
+    .search {
+        margin-bottom: 17px;
+    }
+    .main {
+        display: inline;
+        text-align: left;
+    }
+    .prime{
+        font-size: 36px;
+        margin-left: 0em;
+    }
+     footer {
+        display: inline;
+    }
+}
+@media (max-width: 768px){
+}

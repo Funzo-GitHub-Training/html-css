@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat&display=swap');
+
+body{
+    background: url("../Images/backgrd.png") no-repeat;
+    color: white;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 150px;
+}
+.header > .logo{
+    background: url("../Images/Landing.png") no-repeat;
+    width: 135px;
+    height: 35px;
+    display: flex;
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 255px;
+    height: 47px;
+    opacity: 0.5;
+    background: url("../Images/Rectangle.png") no-repeat;
+    /* background-color: #eff0f4; */
+}
+.rectangle p{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.icons {
+    display: flex;
+    margin-left: 15px;
+}
+.dribble{
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-color: #fff;
+    background: url("../Images/dribbble.png") no-repeat;
+}
+.twitter{
+    width: 24px;
+    height: 20px;
+    margin-top: 14px;
+    margin-right: 15px;
+    background-color: #fff;
+    background: url("../Images/twitter.png") no-repeat;
+}
+.youtube{
+    width: 24px;
+    height: 18px;
+    margin-top: 14px;
+    margin-right: 15px;
+    background-color: #fff;
+    background: url("../Images/youtube.png") no-repeat;
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -33px;
+}
+.user-icon{
+    height: 14px;
+    width: 12px;
+    background:url("../Images/User-icon.png") no-repeat;
+    margin-right: 31px;
+}
+.search-icon{
+    height: 14px;
+    width: 14px;
+    background: url("../Images/search-icon.png") no-repeat;
+    margin-right: 15px;
+ }
+.main{
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    margin-left: 220px;
+}
+.prime{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.second{
+    font-size: 86px;
+    font-weight: bold;
+    letter-spacing: 0;
+    font-family: 'Arvo', serif;
+}
+.btn{
+    width: 81px;
+    display: inline-block;
+    background: #FFC80A;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color:  #4A4A4A;
+    font-size: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    margin: 15px 0;
+    border-radius: 30px;
+}

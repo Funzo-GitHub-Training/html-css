@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat&display=swap');
+
+body{
+    background: url("../Images/BG.png") no-repeat;
+    color: white;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header > .logo{
+    height: 35px;
+    width: 135px;
+    background: url("../Images/Landing.png") no-repeat;
+}
+.header >.button{
+    text-transform: uppercase;
+    color:  #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    height: 36px;
+    width: 160px;
+}
+.button >.text{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    text-align: center;
+    margin: 165px;
+}
+.prime{
+    color: #FFFFFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.second{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Arvo', serif;
+}
+.btn{
+    display: inline-block;
+    background: #FFC80A;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color:  #4A4A4A;
+    font-size: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    margin: 15px 0;
+    border-radius: 30px;
+}
